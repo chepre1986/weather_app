@@ -1,5 +1,9 @@
 import logo from './logo.svg';
 import './App.css';
+import { Code } from 'react-content-loader'
+
+
+
 
 function App() {
   return (
@@ -7,17 +11,18 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          save to reload.
         </p>
+        const MyCodeLoader(<Code />
         <a
           className="App-link"
           href="https://reactjs.org"
           target="_blank"
           rel="noopener noreferrer"
-        >
+        >)
           Learn React
         </a>
-      </header>
+      </header>npx creat-react-app .
     </div>
   );
 }
